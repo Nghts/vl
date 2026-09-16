@@ -34,7 +34,6 @@
             }
         }
     }
-    if (!window) window = [UIApplication sharedApplication].windows.firstObject;
     if (!window) return;
 
     if (self.superview != window) {
