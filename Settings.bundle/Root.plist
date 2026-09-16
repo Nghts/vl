@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key><string>PSGroupSpecifier</string>
+			<key>Title</key><string>VolumeBoostAll</string>
+			<key>FooterText</key><string>Adjust the boost level with the in-app panel or the volume gesture. Changes apply the next time an app starts.</string>
+		</dict>
+		<dict>
+			<key>Type</key><string>PSToggleSwitchSpecifier</string>
+			<key>Title</key><string>Enable volume boost</string>
+			<key>Key</key><string>VolumeBoostAllEnabled</string>
+			<key>DefaultValue</key><true/>
+		</dict>
+		<dict>
+			<key>Type</key><string>PSSliderSpecifier</string>
+			<key>Title</key><string>Multiplier</string>
+			<key>Key</key><string>CustomVolumeScalar</string>
+			<key>DefaultValue</key><real>1.0</real>
+			<key>MinimumValue</key><real>0.0</real>
+			<key>MaximumValue</key><real>20.0</real>
+			<key>MinimumValueImage</key><string>0×</string>
+			<key>MaximumValueImage</key><string>20×</string>
+		</dict>
+		<dict>
+			<key>Type</key><string>PSToggleSwitchSpecifier</string>
+			<key>Title</key><string>Remember multiplier</string>
+			<key>Key</key><string>RememberVolumeEnabled</string>
+			<key>DefaultValue</key><true/>
+		</dict>
+		<dict>
+			<key>Type</key><string>PSToggleSwitchSpecifier</string>
+			<key>Title</key><string>Show gesture indicator</string>
+			<key>Key</key><string>ShowGestureIndicator</string>
+			<key>DefaultValue</key><true/>
+		</dict>
+	</array>
+</dict>
+</plist>

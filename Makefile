@@ -11,7 +11,7 @@ include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = VolumeBoostAll
 
-VolumeBoostAll_FILES = Tweak.x VBVolumeHUD.m
+VolumeBoostAll_FILES = Tweak.x VBVolumeHUD.m VBSettingsPanel.m
 VolumeBoostAll_CFLAGS = -fobjc-arc
 VolumeBoostAll_FRAMEWORKS = UIKit AVFoundation
 
