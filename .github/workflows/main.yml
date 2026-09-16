@@ -1,4 +1,4 @@
-ame: Build Tweak
+name: Build Tweak
 
 on:
   workflow_dispatch:
