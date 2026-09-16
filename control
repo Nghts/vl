@@ -2,8 +2,8 @@ Package: com.yourname.volumeboostall
 Name: VolumeBoostAll
 Version: 1.0.0
 Architecture: iphoneos-arm64
-Description: System-wide gesture-based volume boost for every app, with an extra runtime hook for custom (non-AVFoundation) player classes.
-Maintainer: Your Name
-Author: Your Name
+Description: System-wide gesture-based volume boost for every app, with an extra runtime hook for custom player classes.
+Maintainer: Lang Buddha
+Author: BrickBoyz
 Section: Tweaks
-Depends: mobilesubstrate
+Depends: mobilesubstrate, firmware (>= 15.0)
