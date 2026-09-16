@@ -1,4 +1,4 @@
-yamlname: Claude Code Automation
+name: Claude Code Automation
 on:
   issues:
     types: [labeled]
@@ -18,3 +18,5 @@ jobs:
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+  name: Claude Code GitHub Integration
+  uses: nicholaslee119/claude-code-github-action@0.1.1
